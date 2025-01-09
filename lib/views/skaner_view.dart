@@ -65,7 +65,7 @@ class _Skaner_widgetState extends State<Skaner_widget> {
           child: CupertinoButton(
             child: Text(
               "Skaner",
-              style: GoogleFonts.philosopher(fontSize: 23),
+              style: GoogleFonts.philosopher(fontSize: 23, color: Colors.white),
             ),
             onPressed: () async {
               final result = await Navigator.push(context,

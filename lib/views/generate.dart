@@ -147,7 +147,7 @@ class _Generate_widgetState extends State<Generate_widget> {
           child: CupertinoButton(
             child: Text(
               "Generate",
-              style: GoogleFonts.philosopher(fontSize: 23),
+              style: GoogleFonts.philosopher(fontSize: 23, color: Colors.white),
             ),
             onPressed: () {
               setState(() {
